@@ -43,6 +43,7 @@ void setup() {
     servoMotor2.attach(10);
 
     pinMode(boton, INPUT_PULLUP);
+    pinMode(laser, OUTPUT);
 }
 
 
